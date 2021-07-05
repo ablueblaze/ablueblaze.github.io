@@ -5,58 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
       body {
-    background-color: rgb(209, 209, 209);
-}
+        background-color: rgb(209, 209, 209);
+        }
 
-.header {
-    height: 100px;
-    font-size: 5em;
-    text-align: center;
-}
+        .header {
+            height: 100px;
+            font-size: 5em;
+            text-align: center;
+        }
 
-.bigContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-#grid {
-    box-sizing: border-box;
-    border-radius: 20px;
-    width: 560px;
-    height: 560px;
-    border: solid 30px rgb(194, 40, 40);
-    background-color: rgb(52, 154, 255);
-}
-
-.colum{
-    display: inline-block;
-    box-sizing: border-box;
-    height: max-content;
-
-}
+        .bigContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
 
-.colum div {
-    background-color: rgb(52, 154, 255);
-    border-radius: 8px;
-}
+        #grid {
+            box-sizing: border-box;
+            border-radius: 20px;
+            width: 560px;
+            height: 560px;
+            border: solid 30px rgb(194, 40, 40);
+            background-color: rgb(52, 154, 255);
+        }
 
-.color {
-    background-color: rgb(9, 0, 131) !important;
-    /* background-color: randomColor; */
-}
+        .colum{
+            display: inline-block;
+            box-sizing: border-box;
+            height: max-content;
 
-.buttons {
-    text-align: center;
-    margin-top: 20px;
-}
+        }
 
-.gridSizer {
-    text-align: center;
-}
+
+        .colum div {
+            background-color: rgb(52, 154, 255);
+            border-radius: 8px;
+        }
+
+        .color {
+            background-color: rgb(9, 0, 131) !important;
+            /* background-color: randomColor; */
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .gridSizer {
+            text-align: center;
+        }
 
 
     </style>

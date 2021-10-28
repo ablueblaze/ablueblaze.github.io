@@ -37,7 +37,7 @@ function multiDigit(workingNum, newNum) {
 function display(number) {
   let display = document.querySelector("#display");
   let num = number;
-  display.firstChild.nodeValue = num;
+  display.textContent = num;
 }
 
 function numbers(newNum) {
